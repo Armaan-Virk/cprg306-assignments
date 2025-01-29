@@ -1,4 +1,4 @@
-// File: app/week-2/student-info.js
+import React from 'react';
 import Link from 'next/link';
 
 export default function StudentInfo() {
@@ -6,9 +6,9 @@ export default function StudentInfo() {
     <div>
       <p>Your Name: Armaandeep Singh</p>
       <p>
-        GitHub Repository: 
+         
         <Link href="https://github.com/Armaan-Virk/cprg306-assignments">
-          cprg306-assignments
+        GitHub Repository:
         </Link>
       </p>
     </div>
